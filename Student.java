@@ -27,8 +27,8 @@ System.out.println("Salary: " + salary);
 
 public static void main(String[] args) 
 {
-Employee employee1 = new Employee("Ajay", 1001,35000);
-Employee employee2 = new Employee("phani", 1002, 50000);
+Employee employee1 = new Employee("Ajay", 1001);
+Employee employee2 = new Employee("phani", 1002, 50000.0);
 
 employee1.displayInfo();
 System.out.println();
